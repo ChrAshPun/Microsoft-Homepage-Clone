@@ -1,0 +1,478 @@
+@media screen and (max-width: 1400px) {
+  /* nav */
+  .nav__item-text > p {
+    /* remove nav text */
+    display: none;
+  }
+  .nav__sign-in-container {
+    width: 300px;
+  }
+  /* primary slideshow - slide-one */
+  .primary-slideshow__title {
+    font-size: 24px;
+  }
+  #primary-slideshow__slide-one__info-container,
+  #primary-slideshow__slide-two__info-container {
+    width: 440px;
+  }
+  #primary-slideshow__slide-one__info-container {
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .carousel-2__btn-container {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1105px) {
+  /* content-one */
+  .content__flex-container {
+    width: 100%;
+    height: 100%;
+    margin: 48px -12px 0 -12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .content-2 {
+    margin-top: 48px;
+  }
+  /* content-2 */
+  .content-2__flex-container {
+    width: 100%;
+    height: 100%;
+    margin: 18px -12px 0 -12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .content-2__2 {
+    /* padding-left: calc(5% - 12px);
+    padding-right: calc(5% - 12px); */
+    margin-top: 48px;
+  }
+  /* covid */
+  .response-to-covid-section {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  /* nav */
+  .nav-padding {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .body-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #primary-slideshow__slide-one__info-container,
+  #primary-slideshow__slide-two__info-container {
+    width: 340px;
+  }
+  #primary-slideshow__shop-now-btn-1 {
+    display: block;
+  }
+  #primary-slideshow__book-an-appointment-1 {
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+  #primary-slideshow__slide-one-img__lg,
+  #primary-slideshow__slide-two-img__lg {
+    display: none;
+  }
+  #primary-slideshow__slide-one-img__md,
+  #primary-slideshow__slide-two-img__md {
+    display: block;
+  }
+  /* content-one */
+  .content-1 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .content-2 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  /* cyberpunk */
+  .cyberpunk2077-container {
+    margin-top: 48px;
+  }
+  /* content-two */
+  .for-business__title {
+    margin-left: 5%;
+  }
+  .content-2__1,
+  .content-2__2 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  /* secondary slideshow */
+  #secondary-slideshow__slide-one__info-container,
+  #secondary-slideshow__slide-two__info-container {
+    width: 340px;
+  }
+  #secondary-slideshow__book-an-appointment-1 {
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+  #secondary-slideshow__slide-one-img__lg,
+  #secondary-slideshow__slide-two-img__lg {
+    display: none;
+  }
+  #secondary-slideshow__slide-one-img__md,
+  #secondary-slideshow__slide-two-img__md {
+    display: block;
+  }
+  /* footer */
+  .footer__top-container {
+    padding: 0 12px;
+  }
+  .footer__top-container__flexbox {
+    flex-direction: column;
+  }
+  .footer__top-container__flex-item:first-child {
+    padding: 0 12px;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  #nav__deals-btn,
+  #nav__support-btn {
+    display: none;
+  }
+  #nav__more-btn {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  /* cyberpunk */
+  .cyberpunk2077-content__info-container {
+  width: 380px;
+  }
+  .footer__bottom-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 24px 16px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  /* nav */
+  #nav__xbox-btn {
+    display: none;
+  }
+  .cyberpunk2077-content__info {
+    /* width: 350px; */
+  }
+}
+
+@media screen and (max-width: 865px) {
+  /* nav */
+  #nav__surface-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 858px) {
+  /* nav */
+  .nav-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  #nav__hamburger-menu {
+    display: inline-block;
+  }
+  #nav__mobile-search-item {
+    display: inline-block;
+  }
+  #nav__microsoft-logo {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+  }
+  .nav__nav-items-container {
+    display: none;
+  }
+  #nav__all-microsoft-btn {
+    display: none;
+  }
+  #nav__desktop-search-item {
+    display: none;
+  }
+  .nav__item-text {
+    width: 48px;
+  }
+  .nav__item-text > i {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  /* cyberpunk */
+  .cyberpunk2077-content__linear-gradient {
+    display: none;
+  }
+  .cyberpunk2077-content__info {
+    display: block;
+    background: #e6e6e6;
+    position: relative;
+    height: 320px;
+    text-align: center;
+  }
+  .cyberpunk2077-content__info-container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  /* primary-slideshow */
+  .primary-slideshow {
+    margin-bottom: 0px;
+  }
+  /* carousel-2 */
+  .carousel-2__container {
+    height: 332px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 48px;
+  }
+  .carousel-2__btn-container {
+    display: none;
+  }
+  #carousel-2 {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+  #carousel-2 > ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #carousel-2 > ul > a {
+    width: auto;
+    height: 100%;
+  }
+  #carousel-2 > ul > a > li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    padding: 12px 6px;
+    list-style: none;
+  }
+  #carousel-2 img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 8px 0 0;
+  }
+  #carousel-2 p {
+    display: inline-block;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  #primary-slideshow__slide-one-img__md,
+  #primary-slideshow__slide-two-img__md {
+    display: none;
+  }
+  #primary-slideshow__slide-one-img__centered,
+  #primary-slideshow__slide-two-img__centered {
+    display: block;
+  }
+  #primary-slideshow__shop-now-btn-1 {
+    margin: 0 auto;
+  }
+  #primary-slideshow__slide-one__info,
+  #primary-slideshow__slide-two__info {
+    display: block;
+    width: 100%;
+    height: 320px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(0, 0);
+    background: #e6e6e6;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #primary-slideshow__slide-one__info-container,
+  #primary-slideshow__slide-two__info-container {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    padding: 10% 5%;
+    margin: 0;
+  }
+  @keyframes primary-slideshow__slide-one__info-appear {
+    0% {
+      transform: translateX(-30px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  @keyframes primary-slideshow__slide-two__info-appear {
+    0% {
+      transform: translateX(-30px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+  .primary-slideshow__tis-the-sale {
+    margin: 0 auto 8px auto;
+  }
+  .primary-slideshow__title {
+    font-size: 20px;
+    margin: 0 0 6px 0;
+  }
+  .primary-slideshow__description {
+    width: 100%;
+    margin: 0 auto 10px auto;
+  }
+  #primary-slideshow__shop-now-btn-2 {
+    margin: 0 auto;
+  }
+  .response-to-covid-section > h2 {
+    font-size: 26px;
+  }
+  /* secondary slideshow */
+  #secondary-slideshow__slide-one-img__md,
+  #secondary-slideshow__slide-two-img__md {
+    display: none;
+  }
+  #secondary-slideshow__slide-one-img__centered,
+  #secondary-slideshow__slide-two-img__centered {
+    display: block;
+  }
+  #secondary-slideshow__shop-now-btn-1 {
+    margin: 0 auto;
+  }
+  #secondary-slideshow__slide-one__info {
+    background: #333333;
+    display: block;
+    width: 100%;
+    height: 320px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(0, 0);
+    text-align: center;
+    margin: 0 auto;
+  }
+  .secondary-slideshow__code-with-minecraft {
+    margin: 0 auto;
+  }
+  #secondary-slideshow__slide-one__info-container {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    padding: 15% 5%;
+    margin: 0;
+  }
+  .secondary-slideshow__title {
+    font-size: 20px;
+  }
+  .secondary-slideshow__description {
+    margin: 0 0 12px 0;
+  }
+  #secondary-slideshow__slide-two__info {
+    display: block;
+    width: 100%;
+    height: 320px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(0, 0);
+    background: #333333;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #secondary-slideshow__slide-two__info-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* footer */
+  .footer__bottom-container__links-grp-1 {
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  /* content-one */
+  /* .content__flex-container {
+    margin: 0 -12px;
+  } */
+  .content-1,
+  .content-2 {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .content__item {
+    margin-bottom: 48px;
+  }
+  /* content-two */
+  .content-2__1,
+  .content-2__2 {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  /* cyberpunk */
+  .cyberpunk2077-container {
+    margin-top: 0px;
+  }
+  /* covid */
+  .response-to-covid-section {
+    margin-top: 0px;
+  }
+  /* secondary slideshow */
+  #secondary-slideshow__slide-one__info-container {
+    padding: 20% 5%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #primary-slideshow__shop-now-btn-1 {
+    display: block;
+    margin: 0 auto;
+  }
+  #primary-slideshow__book-an-appointment-1 {
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+}
